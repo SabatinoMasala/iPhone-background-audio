@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0415B5E118CA141000321B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415B5E018CA141000321B73 /* Foundation.framework */; };
+		0415B5E318CA141000321B73 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415B5E218CA141000321B73 /* CoreGraphics.framework */; };
+		0415B5E518CA141000321B73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415B5E418CA141000321B73 /* UIKit.framework */; };
+		0415B5EB18CA141000321B73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0415B5E918CA141000321B73 /* InfoPlist.strings */; };
+		0415B5ED18CA141000321B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415B5EC18CA141000321B73 /* main.m */; };
+		0415B5F118CA141000321B73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415B5F018CA141000321B73 /* AppDelegate.m */; };
+		0415B5F318CA141000321B73 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0415B5F218CA141000321B73 /* Images.xcassets */; };
+		0415B5FA18CA141000321B73 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415B5F918CA141000321B73 /* XCTest.framework */; };
+		0415B5FB18CA141000321B73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415B5E018CA141000321B73 /* Foundation.framework */; };
+		0415B5FC18CA141000321B73 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0415B5E418CA141000321B73 /* UIKit.framework */; };
+		0415B60418CA141000321B73 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0415B60218CA141000321B73 /* InfoPlist.strings */; };
+		0415B60618CA141000321B73 /* Audio_in_BGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415B60518CA141000321B73 /* Audio_in_BGTests.m */; };
+		0415B61018CA142A00321B73 /* alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0415B60F18CA142A00321B73 /* alarm.mp3 */; };
+		0415B61318CA15DA00321B73 /* BackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0415B61218CA15DA00321B73 /* BackgroundViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0415B5FD18CA141000321B73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0415B5D518CA141000321B73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0415B5DC18CA141000321B73;
+			remoteInfo = "Audio in BG";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0415B5DD18CA141000321B73 /* Audio in BG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Audio in BG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415B5E018CA141000321B73 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0415B5E218CA141000321B73 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0415B5E418CA141000321B73 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0415B5E818CA141000321B73 /* Audio in BG-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Audio in BG-Info.plist"; sourceTree = "<group>"; };
+		0415B5EA18CA141000321B73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0415B5EC18CA141000321B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0415B5EE18CA141000321B73 /* Audio in BG-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Audio in BG-Prefix.pch"; sourceTree = "<group>"; };
+		0415B5EF18CA141000321B73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0415B5F018CA141000321B73 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0415B5F218CA141000321B73 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0415B5F818CA141000321B73 /* Audio in BGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Audio in BGTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0415B5F918CA141000321B73 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0415B60118CA141000321B73 /* Audio in BGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Audio in BGTests-Info.plist"; sourceTree = "<group>"; };
+		0415B60318CA141000321B73 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0415B60518CA141000321B73 /* Audio_in_BGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Audio_in_BGTests.m; sourceTree = "<group>"; };
+		0415B60F18CA142A00321B73 /* alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm.mp3; sourceTree = "<group>"; };
+		0415B61118CA15DA00321B73 /* BackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundViewController.h; sourceTree = "<group>"; };
+		0415B61218CA15DA00321B73 /* BackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0415B5DA18CA141000321B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415B5E318CA141000321B73 /* CoreGraphics.framework in Frameworks */,
+				0415B5E518CA141000321B73 /* UIKit.framework in Frameworks */,
+				0415B5E118CA141000321B73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415B5F518CA141000321B73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415B5FA18CA141000321B73 /* XCTest.framework in Frameworks */,
+				0415B5FC18CA141000321B73 /* UIKit.framework in Frameworks */,
+				0415B5FB18CA141000321B73 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0415B5D418CA141000321B73 = {
+			isa = PBXGroup;
+			children = (
+				0415B5E618CA141000321B73 /* Audio in BG */,
+				0415B5FF18CA141000321B73 /* Audio in BGTests */,
+				0415B5DF18CA141000321B73 /* Frameworks */,
+				0415B5DE18CA141000321B73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0415B5DE18CA141000321B73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0415B5DD18CA141000321B73 /* Audio in BG.app */,
+				0415B5F818CA141000321B73 /* Audio in BGTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0415B5DF18CA141000321B73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0415B5E018CA141000321B73 /* Foundation.framework */,
+				0415B5E218CA141000321B73 /* CoreGraphics.framework */,
+				0415B5E418CA141000321B73 /* UIKit.framework */,
+				0415B5F918CA141000321B73 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0415B5E618CA141000321B73 /* Audio in BG */ = {
+			isa = PBXGroup;
+			children = (
+				0415B60F18CA142A00321B73 /* alarm.mp3 */,
+				0415B5EF18CA141000321B73 /* AppDelegate.h */,
+				0415B5F018CA141000321B73 /* AppDelegate.m */,
+				0415B61118CA15DA00321B73 /* BackgroundViewController.h */,
+				0415B61218CA15DA00321B73 /* BackgroundViewController.m */,
+				0415B5F218CA141000321B73 /* Images.xcassets */,
+				0415B5E718CA141000321B73 /* Supporting Files */,
+			);
+			path = "Audio in BG";
+			sourceTree = "<group>";
+		};
+		0415B5E718CA141000321B73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0415B5E818CA141000321B73 /* Audio in BG-Info.plist */,
+				0415B5E918CA141000321B73 /* InfoPlist.strings */,
+				0415B5EC18CA141000321B73 /* main.m */,
+				0415B5EE18CA141000321B73 /* Audio in BG-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0415B5FF18CA141000321B73 /* Audio in BGTests */ = {
+			isa = PBXGroup;
+			children = (
+				0415B60518CA141000321B73 /* Audio_in_BGTests.m */,
+				0415B60018CA141000321B73 /* Supporting Files */,
+			);
+			path = "Audio in BGTests";
+			sourceTree = "<group>";
+		};
+		0415B60018CA141000321B73 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0415B60118CA141000321B73 /* Audio in BGTests-Info.plist */,
+				0415B60218CA141000321B73 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0415B5DC18CA141000321B73 /* Audio in BG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415B60918CA141000321B73 /* Build configuration list for PBXNativeTarget "Audio in BG" */;
+			buildPhases = (
+				0415B5D918CA141000321B73 /* Sources */,
+				0415B5DA18CA141000321B73 /* Frameworks */,
+				0415B5DB18CA141000321B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Audio in BG";
+			productName = "Audio in BG";
+			productReference = 0415B5DD18CA141000321B73 /* Audio in BG.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0415B5F718CA141000321B73 /* Audio in BGTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0415B60C18CA141000321B73 /* Build configuration list for PBXNativeTarget "Audio in BGTests" */;
+			buildPhases = (
+				0415B5F418CA141000321B73 /* Sources */,
+				0415B5F518CA141000321B73 /* Frameworks */,
+				0415B5F618CA141000321B73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0415B5FE18CA141000321B73 /* PBXTargetDependency */,
+			);
+			name = "Audio in BGTests";
+			productName = "Audio in BGTests";
+			productReference = 0415B5F818CA141000321B73 /* Audio in BGTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0415B5D518CA141000321B73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sabatino Masala";
+				TargetAttributes = {
+					0415B5DC18CA141000321B73 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					0415B5F718CA141000321B73 = {
+						TestTargetID = 0415B5DC18CA141000321B73;
+					};
+				};
+			};
+			buildConfigurationList = 0415B5D818CA141000321B73 /* Build configuration list for PBXProject "Audio in BG" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0415B5D418CA141000321B73;
+			productRefGroup = 0415B5DE18CA141000321B73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0415B5DC18CA141000321B73 /* Audio in BG */,
+				0415B5F718CA141000321B73 /* Audio in BGTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0415B5DB18CA141000321B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415B5EB18CA141000321B73 /* InfoPlist.strings in Resources */,
+				0415B5F318CA141000321B73 /* Images.xcassets in Resources */,
+				0415B61018CA142A00321B73 /* alarm.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415B5F618CA141000321B73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415B60418CA141000321B73 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0415B5D918CA141000321B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415B5F118CA141000321B73 /* AppDelegate.m in Sources */,
+				0415B61318CA15DA00321B73 /* BackgroundViewController.m in Sources */,
+				0415B5ED18CA141000321B73 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0415B5F418CA141000321B73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0415B60618CA141000321B73 /* Audio_in_BGTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0415B5FE18CA141000321B73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0415B5DC18CA141000321B73 /* Audio in BG */;
+			targetProxy = 0415B5FD18CA141000321B73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0415B5E918CA141000321B73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415B5EA18CA141000321B73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0415B60218CA141000321B73 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0415B60318CA141000321B73 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0415B60718CA141000321B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0415B60818CA141000321B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0415B60A18CA141000321B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Audio in BG/Audio in BG-Prefix.pch";
+				INFOPLIST_FILE = "Audio in BG/Audio in BG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0415B60B18CA141000321B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Audio in BG/Audio in BG-Prefix.pch";
+				INFOPLIST_FILE = "Audio in BG/Audio in BG-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0415B60D18CA141000321B73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Audio in BG.app/Audio in BG";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Audio in BG/Audio in BG-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Audio in BGTests/Audio in BGTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0415B60E18CA141000321B73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Audio in BG.app/Audio in BG";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Audio in BG/Audio in BG-Prefix.pch";
+				INFOPLIST_FILE = "Audio in BGTests/Audio in BGTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0415B5D818CA141000321B73 /* Build configuration list for PBXProject "Audio in BG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415B60718CA141000321B73 /* Debug */,
+				0415B60818CA141000321B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0415B60918CA141000321B73 /* Build configuration list for PBXNativeTarget "Audio in BG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415B60A18CA141000321B73 /* Debug */,
+				0415B60B18CA141000321B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0415B60C18CA141000321B73 /* Build configuration list for PBXNativeTarget "Audio in BGTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0415B60D18CA141000321B73 /* Debug */,
+				0415B60E18CA141000321B73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0415B5D518CA141000321B73 /* Project object */;
+}
